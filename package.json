@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/sahat/newedenfaces-react"
   },
+  "engines": {
+    "node": "5.0.0"
+  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
