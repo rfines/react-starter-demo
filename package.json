@@ -16,7 +16,10 @@
     "postinstall": "bower install && gulp build"
   },
   "babel": {
-    "presets": ["es2015", "react"]
+    "presets": [
+      "es2015",
+      "react"
+    ]
   },
   "dependencies": {
     "alt": "^0.17.8",
@@ -25,6 +28,7 @@
     "colors": "^1.1.2",
     "compression": "^1.6.0",
     "express": "^4.13.3",
+    "gulp": "^3.9.1",
     "history": "^1.13.0",
     "mongoose": "^4.2.5",
     "morgan": "^1.6.1",
@@ -37,7 +41,6 @@
     "swig": "^1.4.2",
     "underscore": "^1.8.3",
     "xml2js": "^0.4.15"
-
   },
   "devDependencies": {
     "babel-core": "^6.1.19",
